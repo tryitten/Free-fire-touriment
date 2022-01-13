@@ -1,0 +1,99 @@
+body{
+    background: rgb(216, 172, 216);
+    position:absolute;
+    margin:100px 100px;
+}
+.nav{
+background: rgb(232, 250, 154);
+    font-size: 90px;
+}
+.container{
+  font-size: 40px;
+  border:rgb(235, 143, 143)solid;
+  position:absolute;
+  top: 150px;
+  left: 40%;
+margin: auto;
+
+}
+.container input{
+    font-size: 20px;
+    border-radius: 50px;
+    border-color: rgb(128, 122, 209);
+background: rgb(178, 225, 243);
+}
+.chanel {
+    font-size:28px ;
+  
+    color: rgb(221, 113, 12);
+    
+   
+}
+
+
+@media screen and (max-width:599px){
+    body{
+
+        background: rgb(216, 172, 216)!important;
+      
+    }
+    .nav{
+       
+        background: rgb(232, 250, 154);
+      
+       
+    }
+    .container{
+        top: 100%;
+        left: -0%;
+      
+        font-size:1%;
+    }
+
+
+   
+}
+@media screen and (max-width:750px){
+    body{
+
+        background: rgb(216, 172, 216);
+      
+    }
+    .nav{
+        background: rgb(232, 250, 154);
+        padding-left: 0px;
+        margin-left: -80px;
+        margin-top: -50px;
+        margin-right: 50px;
+        font-size: 40px;
+      
+       
+    }
+    .container{
+       top: 110%;
+       left: -16%;
+       font-size: 20px;
+    }
+
+    .container input{ 
+     
+        font-size: 20px;
+     }
+   
+}
+
+@media screen and (max-width:1400px){
+
+.container{
+    top: 90%;
+    left: 20%;
+    
+}
+ .nav{
+    background: rgb(232, 250, 154);
+ }
+.container{
+    top: 100%;
+}
+
+}
