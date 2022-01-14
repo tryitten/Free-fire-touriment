@@ -29,6 +29,13 @@ background: rgb(178, 225, 243);
     
    
 }
+.button{
+    background: rgb(148, 209, 153);
+    border-radius: 50px;
+    border-color: rgb(137, 240, 137) ;
+    font-size: 30px;
+    
+}
 
 
 @media screen and (max-width:599px){
@@ -40,13 +47,15 @@ background: rgb(178, 225, 243);
     .nav{
        
         background: rgb(232, 250, 154);
+        
+        
       
        
     }
     .container{
         top: 100%;
-        left: -0%;
-      
+        padding-left:10px;
+      margin-left: -120px;
         font-size:1%;
     }
 
@@ -62,9 +71,9 @@ background: rgb(178, 225, 243);
     .nav{
         background: rgb(232, 250, 154);
         padding-left: 0px;
-        margin-left: -80px;
+        margin-left: -20px;
         margin-top: -50px;
-        margin-right: 50px;
+        margin-right: 0px;
         font-size: 40px;
       
        
